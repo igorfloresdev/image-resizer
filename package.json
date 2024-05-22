@@ -1,0 +1,19 @@
+{
+  "name": "image-resize-electron",
+  "productName": "Image Resizer",
+  "version": "1.0.0",
+  "description": "App to resize image dimensions",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dev": "electronmon ."
+  },
+  "author": "Igor Flores",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^30.0.6",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  }
+}
